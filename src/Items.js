@@ -32,9 +32,9 @@ export default class Items extends Component {
       const temp = this.state.list.length - prevState.list.length;
 
       if(temp > 0){
-        alert('물건 리스트가 늘어났습니다.')
+        alert('아이템 목록이 등록되었습니다.')
       } else {
-        alert('물건이 삭제되었습니다.')
+        alert('아이템이 삭제되었습니다.')
       }
     }
   }
